@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Toilet Paper Subscription">
+    <meta name="keywords" content="Toiler, Paper, Toilet Paper">
+
+    <title>Global Toilet Paper Corp</title>
+</head>
+<body>
+    <header>
+        <h2>Toapapper</h2>
+        <nav>
+            <ul class="navLinks">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="form.html">Order</a></li>
+                <li><a href="contact.html">About</a></li>
+            </ul>
+        </nav>
+        <a class="cta" href="contact.html">Contact</a>
+    </header>
+
+    <div class="flex-container">
+
+        <div class="flex-img"><img src="toiletpaper.jpeg" alt="toiletpaper"></div>
+
+        <div class="flex-text">
+            <h1>Toiletpaper Subscription</h1>
+            <p>Have you ever found your self on the toilet but forgot to buy </p>
+            <form action="/order-url" method="post">
+                <div>
+                    <label for="n">Name:</label>
+                    <input id="n" type="text" placeholder="Name" required>
+                </div>
+                
+                <div>
+                    <label for="e">Email:</label>
+                    <input id="e" type="email" placeholder="Email" required>
+                    
+                </div>
+                
+                <div>
+                    <label for="v">Number:</label>
+                    <input id="v" type="number" placeholder="Number" required>
+                </div>
+                
+                <input type="submit">
+            </form>
+        </div>
+
+    </div>
+
+    <footer>John Smith | toapapper@business.net | 0702323345</footer>
+</body>
+</html>
